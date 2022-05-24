@@ -1,0 +1,20 @@
+.odd-changes {
+  background-color: rgb(255,195,203);
+  font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#two-changes {
+  color:rgb(0,0,255);
+  font-size: 36px;
+}
+
+.three-changes {
+  font-size:24px;
+}
+
+#four-changes {
+  background-color:rgb(144,238,144);
+  font-size:24px;
+  font-weight:700;
+}
+
