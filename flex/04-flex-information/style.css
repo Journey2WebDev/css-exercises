@@ -10,7 +10,34 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin: 32px; /* Solution: failed to include space between title and items */
 }
+
+.container {
+  display: flex;
+  gap: 52px; /* Solution: increased gap from 20px to 52px */
+  padding: 20px;
+  justify-content: center;
+}
+
+.flex-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*
+  Solution: Failed to include max-width. This implements an UPPER LIMIT for how WIDE
+  a flex item can get. Visually, this keeps the flex items relatively centered under the 
+  title as the size of the page is adjusted.
+  */
+  max-width: 200px; 
+}
+
+.text {
+  text-align: center;
+}
+
+
 
 /* do not edit this footer */
 .footer {
